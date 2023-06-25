@@ -1,24 +1,43 @@
-uvicorn==0.13.3
-fastapi==0.65.2
-fastapi-contrib==0.2.9
+uvicorn==0.22.0
+fastapi==0.98.0
+fastapi-contrib==0.2.11
+pydantic==1.10.9
 pydiator-core==1.0.11
-pydantic==1.7.4
-redis==3.5.3
+redis==4.5.5
 
 # test
-pytest==6.2.1
-requests==2.25.1
-coverage==5.3.1
-pytest-env==0.6.2
-python-dotenv==0.15.0
+coverage==7.2.7
+pytest==7.4.0
+pytest-env==0.8.2
+python-dotenv==1.0.0
+requests==2.31.0
 
 # tracing
-jaeger-client==4.4.0
+jaeger-client==4.8.0
 opentracing==2.4.0
-opentracing-instrumentation==3.3.1
-tornado==5.1.1
+# opentracing-instrumentation==3.3.1
+tornado==6.3.2
 
-
-
-
-
+# anyio==3.7.0
+# attrs==23.1.0
+# certifi==2023.5.7
+# chardet==4.0.0
+# charset-normalizer==3.1.0
+# click==7.1.2
+# contextlib2==21.6.0
+# future==0.18.3
+# h11==0.14.0
+# idna==2.10
+# iniconfig==2.0.0
+# packaging==23.1
+# pluggy==0.13.1
+# py==1.11.0
+# six==1.16.0
+# sniffio==1.3.0
+# starlette==0.27.0
+# threadloop==1.0.2
+# thrift==0.16.0
+# toml==0.10.2
+# typing_extensions==4.6.3
+# urllib3==1.26.16
+# wrapt==1.15.0

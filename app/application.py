@@ -43,9 +43,10 @@ def create_app():
         tags=["todo"]
     )
 
+    app.add_middleware(StateRequestIDMiddleware)
+
     @app.on_event('startup')
     async def startup():
-        app.add_middleware(StateRequestIDMiddleware)
         if TRACER_IS_ENABLED:
             app.state.tracer = tracer
             app.tracer = app.state.tracer
